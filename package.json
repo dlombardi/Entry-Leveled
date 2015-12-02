@@ -30,7 +30,7 @@
     "jshint": "^2.8.0",
     "mailgun-js": "^0.7.7",
     "mixpanel": "^0.3.1",
-    "mongoose": "^4.1.10",
+    "mongoose": "^4.2.8",
     "mongoose-deep-populate": "^2.0.3",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"

@@ -2,23 +2,25 @@
 <html>
 <head>
   <title><%= title %></title>
-  <link rel="stylesheet" href="public/bower_components/foundation/css/foundation.min.css">
-  <link rel='stylesheet' href='public/css/app.css'/>
+  <link rel="stylesheet" href="/public/bower_components/Materialize/dist/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel='stylesheet' href='/public/css/app.css'/>
   <base href="/">
 
 
 
   </head>
   <body class="ng-cloak" ng-app='entry_leveled'>
-    <!-- <ng-include src="'html/nav.html'"></ng-include> -->
+    <ng-include src="'/public/html/nav.html'" ng-controller="navCtrl"></ng-include>
     <div class="container">
       <ui-view></ui-view>
     </div>
 
     <script src="/public/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/public/bower_components/foundation/js/foundation.min.js"></script>
-    <script src="public/bower_components/angular/angular.min.js"></script>
+    <script src="/public/bower_components/angular/angular.min.js"></script>
+    <script src="/public/bower_components/Materialize/dist/js/materialize.min.js"></script>
     <script src="/public/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="/public/bower_components/angular-materialize/src/angular-materialize.js"></script>
     <script src="/public/js/all.min.js"></script>
   </body>
   </html>
