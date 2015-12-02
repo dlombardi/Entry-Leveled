@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/vendor/foundation/css/foundation.min.css">
+  <link rel='stylesheet' href='/css/app.css'/>
+  <base href="/">
+
+
+
+  </head>
+  <body class="ng-cloak" ng-app='entry_leveled'>
+    <ng-include src="'html/general/nav.html'"></ng-include>
+    <div class="container">
+      <ui-view></ui-view>
+    </div>
+
+  </body>
+  </html>
