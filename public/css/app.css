@@ -7919,7 +7919,7 @@ select {
 
 .slider {
   position: relative;
-  height: 400px;
+  height: 200px;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -7937,7 +7937,7 @@ select {
   .slider .slides {
     background-color: #9e9e9e;
     margin: 0;
-    height: 400px; }
+    height: 200px; }
     .slider .slides li {
       opacity: 0;
       position: absolute;
